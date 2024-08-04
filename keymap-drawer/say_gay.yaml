@@ -28,7 +28,7 @@ layers:
   - .
   - {t: nav, h: sticky}
   - SPACE
-  - {t: LSHFT, h: sticky}
+  - '&wasd'
   - {t: sym, h: sticky}
   nav:
   - F5
@@ -123,6 +123,37 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  wasd:
+  - ''
+  - Q
+  - W
+  - E
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - A
+  - S
+  - D
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
 combos:
 - p: [1, 2]
   k: V
